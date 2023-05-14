@@ -1,0 +1,75 @@
+body {
+    background-color: whitesmoke;
+}
+
+.url_manager {
+    width: 500px;
+    margin: 50px auto;
+    padding: 50px;
+    border: 1px solid gray;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.url_add_form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+}
+
+.url_add_form_item {
+    padding-bottom: 20px;
+}
+
+/* .url_label {
+    padding-right: 100px;
+} */
+
+input[type="text"] {
+    position: absolute;
+    left: 220px;
+    width: 300px;
+    font-size: 15px;
+}
+
+.button {
+    width: 150px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: ghostwhite;
+    align-self: center;
+    font-size: 15px;
+    border: 1px solid wheat;
+}
+
+.gallery {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery_item {
+    position: relative;
+}
+
+.gallery_item img {
+ width: 300px;
+ padding-right: 30px;
+ padding-bottom: 30px;
+}
+
+.close_icon {
+    position: absolute;
+    top: -30px;
+    left: 280px;
+}
+
+
+.url_error {
+    display: none;
+    color: red;
+    text-align: right;
+    padding-bottom: 10px;
+}
